@@ -1,4 +1,7 @@
-# kaldi-native-fbank (Rust)
+# `kaldi-native-fbank`
+
+[![Crates.io Version](https://img.shields.io/crates/v/kaldi-native-fbank)](https://crates.io/crates/kaldi-native-fbank)
+
 
 Rust port of `kaldi-native-fbank`, providing FBANK, MFCC, Whisper-style mel features, STFT/ISTFT, and simple online/streaming wrappers built on top of `realfft`/`rustfft`.
 
