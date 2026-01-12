@@ -1,0 +1,21 @@
+[package]
+name = "kaldi-native-fbank"
+version = "0.1.0"
+edition = "2021"
+description = "Rust port of kaldi-native-fbank"
+
+[dependencies]
+# For Real-to-Complex FFTs (replaces FFTW)
+realfft = "3.3"
+rustfft = "6.2" # Transitive dep, but useful to have strict version
+
+# For random number generation (dithering)
+rand = "0.8"
+rand_distr = "0.4"
+
+# Error handling
+thiserror = "1.0"
+anyhow = "1.0"
+
+# Logging
+log = "0.4"
