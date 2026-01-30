@@ -7,7 +7,7 @@ Rust port of `kaldi-native-fbank`, providing FBANK, MFCC, Whisper-style mel feat
 
 ## Features
 - FBANK and MFCC extraction with configurable frame/mel options.
-- Whisper mel frontend (80-bin, Slaney scale) compatible with the C reference.
+- Whisper mel frontend (80-bin, Slaney scale) compatible with the C reference: https://github.com/ThirdLetterC/kaldi-native-fbank.
 - STFT/ISTFT utilities and raw frame copies for debugging.
 - Online feature wrapper for streaming use cases.
 
