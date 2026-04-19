@@ -50,3 +50,7 @@ For streaming input, wrap a `FeatureComputer` in `online::OnlineFeature` and fee
 ```
 cargo test --tests -- --nocapture
 ```
+
+## Also see
+
+- https://github.com/RustedBytes/speechbrain-fbank
